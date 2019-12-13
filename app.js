@@ -1,7 +1,7 @@
 // in sublime
 var express = require('express');
 var port = process.env.PORT || 3000;
-var url = "mongodb+srv://yogeshwattamwar123:wattamwar_123@aptagrimdb-scxde.mongodb.net/test?retryWrites=true&w=majority";
+var url = "mongodb+srv://yogeshwattamwar123:wattamwar_123@cluster0-eakpg.mongodb.net/test?retryWrites=true&w=majority";
 var app = express();
 
   app.use(function (req, res, next) {
